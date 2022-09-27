@@ -45,6 +45,7 @@
   --ib:#73429e ;
   --i1: #73429eb3;
   --i2: #715988;
+  --form:#fff;
   
 /* 
   --bg: #317773;
@@ -641,16 +642,20 @@ body {
 
 .contact-input {
   padding: 1.2rem 1.2rem;
+  color: var(--txt) ;
   border-radius: 19px;
   font-size: 1.6rem;
+  background-color: var(--form);
 }
 
 .textarea {
   height: 28rem;
   resize: none;
+  background-color: var(--form);
 }
 .form input::placeholder {
-  color: #aaa;
+  color: var(--txt+e4);
+  background-color: var(--form);
 }
 
 .form *:focus {
