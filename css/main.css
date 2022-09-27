@@ -331,8 +331,8 @@ body {
 
 /* <---------------------ABoUT----------------> */
 .about {
-  margin-top: 9.4rem;
-  margin-bottom: 30rem;
+  margin-top: 9rem;
+  margin-bottom: 12rem;
 }
 
 .about-heading {
@@ -353,7 +353,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 8rem;
-  margin: 18rem 0 6rem 0;
+  margin: 6rem 0 8rem 0;
 }
 
 .about-img {
@@ -455,7 +455,8 @@ body {
 /* <---------------------SKILLS----------------> */
 
 .skills {
-  margin: 32rem auto;
+  margin-top: 6rem;
+  margin-bottom: 9rem;
 }
 
 .skills-heading {
@@ -465,7 +466,7 @@ body {
   letter-spacing: 0.8rem;
   color: var(--nav);
   font-weight: 700;
-  margin-bottom: 14rem;
+  margin-bottom: 6rem;
 }
 
 .skill-name {
@@ -518,7 +519,7 @@ body {
 /* <---------------------project----------------> */
 
 .project {
-  margin: 32rem auto;
+  margin-bottom: 9rem;
 }
 .projects {
   margin: 0 auto;
@@ -603,7 +604,7 @@ body {
 /* <---------------------contact----------------> */
 
 .form {
-  margin: 26rem;
+  margin: 9rem 26rem;
   font-size: 2.2rem;
   color: var(--bd-d);
 }
